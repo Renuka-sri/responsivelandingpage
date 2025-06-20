@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galaxy Watch Ultra</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+    }
+    .hero{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 2px;
+      background: #f0f0f0;
+    }
+    .hero-content h1 {
+      font-size: 3rem;
+      color: #222;
+    }
+    .hero-content p {
+      font-size: 1.2rem;
+      margin: 1rem 0;
+    }
+    .hero button{
+      padding: 0.8rem 1.5rem;
+      background: #007bff;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .features {
+      display: flex;
+      justify-content: space-around;
+      padding: 2rem;
+      background: #fff;
+    }
+
+    .feature {
+      flex: 1;
+      text-align: center;
+      font-size: 1.1rem;
+    }
+    .about,
+    .testimonials,
+    .cta {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .about img,
+    .hero img {
+      max-width: 300px;
+      height: auto;
+
+    }
+    .hero img{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .about img{
+      margin-left: 100px;
+    }
+
+    .cta button {
+      margin-top: 1rem;
+      padding: 0.8rem 1.5rem;
+      background: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .features {
+        flex-direction: column;
+        gap: 1rem;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+    <h1>Samsung Galaxy fit3</h1>
+    <p>The future of smart fitness.</p>
+    <button>Pre-order-Now</button>
+    </div>
+    <img src="watch2.jpg" alt="watch img" height="30" width="100px">
+  </header>
+  <section class="features">
+    <div class="feature">❤️ Heart Rate</div>
+    <div class="feature">🔋 7-Day Battery</div>
+    <div class="feature">🌐 GPS Tracking</div>
+  </section>
+  <seection class="about">
+    <h1>About Samsung Galaxy fit3</h1>
+    <p>rack your health with precision and style. The Samsung Galaxy fit3 designed for performance and comfort.</p>
+    <img src="watch3.jpg" alt="smart watch in action" height="50px"> 
+  </section>
+  <section class="testimonials">
+    <h1>What Users Say</h1>
+    <p>“Best watch ever!” – Alex</p>
+    <p>“Amazing battery!” – Jamie</p>
+
+  </section>
+  <footer class="cta">
+    <h1>Ready to upgrade?</h1>
+    <button>Sign Up Now</button>
+  </footer>
+</body>
